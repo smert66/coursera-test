@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
+  font-family: "Comic Sans MS", sans-serif;
 }
 h1 {
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
   font-size: 1.75em;
 }
@@ -11,7 +12,10 @@ h1 {
   background-color: lightgrey; 
   border: 1px solid black;    
   position: relative;       
-  margin: 8px;
+  margin: 15px;
+  padding: 15px;
+  padding-top: 30px;
+  height: auto;
 }
 h2 {
   border-bottom: 1px solid black;
@@ -32,20 +36,20 @@ h2.chicken {
 }
 h2.beef {
   background-color: red;
+  color: white;
 }
 h2.sushi {
   background-color: orange;
 }
 p {
-  padding: 10px;
-  padding-top: 40px;
   text-align: justify;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  display: table-row;
+  margin: 0;
+  padding: 15px;
 }
 
 /********** Large devices only **********/
@@ -53,18 +57,12 @@ p {
   .col-lg-4 {
     float: left;
     width: 33.33%;
-    height: auto;
-    padding-bottom: 100%
-    margin-bottom: -100%
   }
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 .col-md-6, .col-md-12 {
     float: left;
-    height: auto;
-    padding-bottom: 100%
-    margin-bottom: -100%
   }
   .col-md-6 {
     width: 50%;
@@ -78,8 +76,5 @@ p {
   .col-sm-12 {
     float: left;
     width: 100%;
-    height: auto;
-    padding-bottom: 100%
-    margin-bottom: -100%
   }
 }
