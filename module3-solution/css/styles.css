@@ -1,0 +1,66 @@
+body {
+  font-size: 16px;
+  color: navy;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+.container {
+	width:100%;
+}
+#header-nav {
+	background-color: gold;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	height: 100px;
+
+}
+.navbar-brand h1 { 
+font-family: 'Lora', serif;
+color: navy;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 20px;
+margin-bottom: 40px;
+margin-left: 10px;
+line-height: 1;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin: 0px -15px 0px;
+	}
+#nav-list a {
+	color: gold;
+	background: navy;
+}
+#nav-list a:hover {
+	background: gold;
+	color: navy;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid navy;
+}
+.navbar-header button.navbar-toggle {
+	margin-bottom: 28px;
+	margin-top: 37px;
+}
+.row {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+section {
+	height: 1000px;
+	background-color: lightblue;
+	margin: 15px 5px 20px;
+	padding: 10px 20px;
+}
+.back-link {
+	position: absolute;
+	bottom: 30px;
+	right: 40px;
+}
